@@ -4,7 +4,7 @@
 - All rights reserved
 
 ## Usage:
- - `barcode-QRcode-gneerator_v4 [Path to csv file containing input data] [Path to output directory for PDF file]`
+ - `barcode-QRcode-generator_v4 [Path to csv file containing input data] [Path to output directory for PDF file]`
  - A column titled 'ID' is used as the code content, otherwise the code content is automatically generate from the headers and values
  
  ## Installation instructions
