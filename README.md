@@ -1,7 +1,9 @@
 # GenerateQRCode
-- Code to batch generate QR codes from a csv file with headings
-- Author: Mark Whitty UNSW
-- All rights reserved
+- Code to batch generate QR codes from a csv file with headings. This is planned to be used with a file naming script here: https://github.com/markwhittyunsw/QR_image_renamer
+- Author: Mark Whitty UNSW (the original version of this code was written while on sabbatical at Plant and Food Research New Zealand)
+- m.whitty@unsw.edu.au
+- Source code: https://github.com/markwhittyunsw/GenerateQRCode
+- MIT licence
 
 ## Usage:
  - `barcode-QRcode-generator_v4 [Path to csv file containing input data] [Path to output directory for PDF file]`
@@ -14,9 +16,9 @@ HINT: Use Terminal in PyCharm to run commands for installing packages using pip 
  - pip install numpy
  - pip install opencv-contrib-python
  - run barcode-QRcodeScannerPy.py to install OpenCV (cv2)
- - pip install pyinstaller  # For making an exe
- - pip install ipywidgets
- - jupyter nbextension enable --py widgetsnbextension
+ - pip install pyinstaller  # Optional - only for making an exe
+ - pip install ipywidgets  # Optional, only for a jupyter notebook
+ - jupyter nbextension enable --py widgetsnbextension  # Optional, only for a jupyter notebook
  - pip install matplotlib
  - Install shapely
    - https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely
