@@ -1,9 +1,10 @@
 # GenerateQRCode
-- Code to batch generate QR codes from a csv file with headings. This is planned to be used with a file naming script here: https://github.com/markwhittyunsw/QR_image_renamer
+- Code to batch generate QR codes from a csv file with headings. This is planned to be used with a file naming script here: https://github.com/markwhittyunsw/QR_image_renamer.
 - Author: Mark Whitty UNSW (the original version of this code was written while on sabbatical at Plant and Food Research New Zealand)
 - m.whitty@unsw.edu.au
 - Source code: https://github.com/markwhittyunsw/GenerateQRCode
 - MIT licence
+- Please cite this paper if you use this code: Hill, G.N. and Whitty, M. A., Embedding metadata in images at time of capture using physical Quick Response (QR) codes, Information Processing & Management, 58(3), 2021, https://doi.org/10.1016/j.ipm.2021.102504
 
 ## Usage:
  - `barcode-QRcode-generator_v4 [Path to csv file containing input data] [Path to output directory for PDF file]`
